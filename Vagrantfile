@@ -1,10 +1,3 @@
-# be sure to have the plugins vagrant-vbguest and vagrant-winnfsd installed if you are running on windows
-
-
-# cp /home/vagrant/etc.ansible.hosts /etc/ansible/hosts
-# cp /home/vagrant/etc.selinux.config /etc/selinux/config
-# cp /home/vagrant/etc.hosts /etc/hosts
-
 Vagrant.configure(2) do |config|
 
    config.vm.define "node1" do |conf|
